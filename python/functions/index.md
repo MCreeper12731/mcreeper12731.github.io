@@ -1,4 +1,4 @@
-# Python - Funkcije
+﻿# Python - Funkcije
 ## Uvod
 Pri programiranju pogosto pride do ponavljanja kode. Zgodi se, da potrebujemo isti postopek izvesti na večih mestih. Da se izognemu podvajanju, lahko tak del kode preoblikujemo v **funkcijo**.
 ```python
@@ -123,8 +123,8 @@ print(komplet_kart)
 ### 3. Naloga - Deljenje kart
 Za igro vsak igralec potrebuje karte. Napišite funkcijo, ki kot parameter prejme **komplet** in **število kart**, ki jih razdeli igralcu in vrne **razdeljene karte**. Razdeljene karte naj bojo odstranjene iz kompleta kart. *Namig:* `seznam.pop()` *odstrani in vrne zadnji element seznama.*<br>**Primer**
 ```python
-igralec1 = razdeli(komplet_kart, 6)
-igralec2 = razdeli(komplet_kart, 4)
+igralec1 = razdeli(6)
+igralec2 = razdeli(4)
 print(igralec1)
 print(igralec2)
 ```
@@ -144,7 +144,7 @@ modra 3
 ### 5. Naloga - Kupovanje kart
 Najpomembnejši del enke - koliko kart lahko nabereš preden tvoj prijatelj zmaga. Napišite funkcijo, ki kot paramater prejme **število kart, ki jih igralec kupi**, **igralčeve karte** in **kupček kart**. Funkcija naj igralčevim kartam doda toliko kart, kot je bilo podano preko parametra.<br>**Primer**
 ```python
-kupi(2, igralec2, komplet_kart)
+kupi(2, igralec2)
 print(igralec2)
 ```
 ```lua
